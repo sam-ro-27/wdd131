@@ -34,3 +34,14 @@ meta {
 meta[name="description"] {
     font-style: italic;
 }
+
+grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
