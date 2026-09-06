@@ -35,14 +35,14 @@ meta[name="description"] {
     font-style: italic;
 }
 
-grid {
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
-flex {
+.flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 button {
@@ -52,11 +52,11 @@ button {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
-image-container {
-    text-align: center;
+.image-container {
+    max-width: 100%;
     margin-bottom: 2rem;
 }
-text-container {
+.text-container {
     text-align: center;
     margin-bottom: 2rem;
 }
