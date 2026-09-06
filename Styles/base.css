@@ -13,3 +13,24 @@ head {
     padding: 1rem;
     text-align: center;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 2rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+meta {
+    display: block;
+    margin-bottom: 1rem;
+}
+meta[name="description"] {
+    font-style: italic;
+}
