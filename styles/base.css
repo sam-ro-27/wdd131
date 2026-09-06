@@ -60,3 +60,7 @@ button {
     text-align: center;
     margin-bottom: 2rem;
 }
+.script {
+    display: block;
+    margin-top: 1rem;
+}
