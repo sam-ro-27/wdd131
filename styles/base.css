@@ -90,3 +90,7 @@ nav ul {
 @media screen and (min-width: 600px) {
     /* adjust the grid layout for wider screens */
 }
+.profile-image {
+    width: 160px;
+    height: auto;
+}
