@@ -77,3 +77,16 @@ nav a:hover {
     max-width: 400px;
     height: auto;
 }
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+@media screen and (min-width: 600px) {
+    /* adjust the grid layout for wider screens */
+}
