@@ -41,7 +41,7 @@ meta[name="description"] {
     gap: 1rem;
 }
 .flex {
-    display: flex;
+    display: table-row;
     justify-content: center;
     align-items: center;
 }
