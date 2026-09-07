@@ -77,11 +77,3 @@ nav a:hover {
     max-width: 400px;
     height: auto;
 }
-nav a {
-    color: #222;
-}
-
-nav a:hover {
-    color: white;
-    background-color: #333;
-}
