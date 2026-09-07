@@ -36,7 +36,7 @@ meta[name="description"] {
 }
 
 .grid {
-    display: grid;
+    display: table-row;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
