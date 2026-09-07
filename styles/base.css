@@ -36,12 +36,11 @@ meta[name="description"] {
 }
 
 .grid {
-    display: table-row;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 .flex {
-    display: table-row;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -51,6 +50,10 @@ button {
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
+}
+.image-container {
+    max-width: 100%;
+    margin-bottom: 2rem;
 }
 .text-container {
     text-align: center;
@@ -74,19 +77,19 @@ nav a:hover {
     height: auto;
 }
 .card {
+    border: 1px solid #bbb;
+    border-radius: 8px;
     padding: 1rem;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
+    background-color: white;
 }
 nav ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
 }
-@media screen and (min-width: 600px) {
-    /* adjust the grid layout for wider screens */
-}
-.profile-image {
-    width: 160px;
-    height: auto;
+
+@media screen and (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
