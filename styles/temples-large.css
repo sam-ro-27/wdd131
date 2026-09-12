@@ -17,5 +17,9 @@
         max-width: 70rem;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+        h2 {
+        grid-column: 1 / -1;
+    }
     
 }
