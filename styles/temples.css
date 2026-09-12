@@ -21,6 +21,10 @@ header {
     background-color: #1b365d;
     color: #ffffff;
     padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
