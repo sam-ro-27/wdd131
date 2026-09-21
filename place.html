@@ -7,20 +7,37 @@
     <meta name="description" content="Texas is a State within the United States of America, statehood in 1845.">
     <title>Texas</title>
     <link rel="stylesheet" href="styles/places.css">
-    <script src="scripts/place.js"></script>
+    <script src="scripts/place.js" defer></script>
 </head>
 <body>    
      <header>
-            <h1>Texas</h1>
+        <h1>Texas</h1>
     </header>
-    <main>
-        <figure>
-            <picture>
-                <source srcset="images/Texas_wildlife-large.webp" media="(min-width: 1000px)">
-                <img src="images/Texas_wildlife.webp" alt="Nine-banded armadillo in Texas grass" width="800" height="600">
-            </picture>
-        </figure>
-    </main>
+        <main>
+                <figure>
+                    <picture>
+                        <source srcset="images/Texas_wildlife-large.webp" media="(min-width: 1000px)">
+                        <img src="images/Texas_wildlife.webp" alt="Nine-banded armadillo in Texas grass" width="800" height="600">
+                    </picture>
+                </figure>
+            <section>
+                <h2>data</h2>
+                    <p>area: 268,601 square miles</p>
+                    <p>population: approximately 30 million (2023)</p>
+                    <p>capital: Austin</p>
+                    <p>largest city: Houston</p>
+                    <p>language: English (primary), Spanish (significant)</p>
+            </section>
+            <section>
+                <h2>Weather</h2>
+                    <span id="currentweather"></span>
+                    <span id="currentwindspeed"></span>
+                    <span id="currenthumidity"></span>
+                    <p>Temperature: 95 °F</p>
+                    <p>Wind: 8 mph</p>
+                    <span id="windchill"></span>
+            </section>
+        </main>
     <footer>
         <p><span id="currentyear"></span> Samuel Rowley, Texas, USA. All rights reserved.</p>
         <p>Last Modification: <span id="lastModified"></span></p>
