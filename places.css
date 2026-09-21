@@ -85,6 +85,18 @@ figure {
     margin: auto;
 }
 
+    figure {
+        grid-column: 1 / -1;
+        width: 100%;
+        margin: 0;
+    }
+
+    picture,
+    figure img {
+        width: 100%;
+        display: block;
+    }
+
 @media (min-width: 1000px) {
     main {
         display: grid;
