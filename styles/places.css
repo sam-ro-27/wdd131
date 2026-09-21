@@ -84,5 +84,38 @@ figcaption {
 figure {
     margin: auto;
 }
+@media (min-width: 1000px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+   figure {
+        grid-column: 1 / -1;
+        width: 100%;
+        margin: 0;
+    }
+
+    picture,
+    figure img {
+        width: 100%;
+        display: block;
+    }
+
+    .weather-icon {
+        display: none;
+    }
+
+    section:last-of-type h2::after {
+        content: " ☀️";
+    }
+}
+
+
+
+
 
 
