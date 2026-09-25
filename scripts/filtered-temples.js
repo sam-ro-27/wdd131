@@ -82,3 +82,19 @@ const temples = [
 ];
 
 const templeContainer = document.getElementById("templeContainer");
+function displayTemples(list) {
+  templeContainer.innerHTML = "";
+  list.forEach((temple) => {
+    templeContainer.innerHTML += `
+      <article class="card">
+        <h3>${temple.templeName}</h3>
+        <p>Location: ${temple.location}</p>
+        <p>Dedicated: ${temple.dedicated}</p>
+        <p>Area: ${temple.area} sq ft</p>
+        <img src="${temple.imageUrl}" alt="${temple.templeName}" loading="lazy" width="400" height="250">
+      </article>
+    `;
+  });
+}
+
+displayTemples(temples);
