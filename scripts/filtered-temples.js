@@ -16,9 +16,6 @@ menuButton.addEventListener("click", function () {
 
 
 const temples = [
-
-  createtemplesCard();
-
   {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
