@@ -23,3 +23,44 @@
     }
     
 }
+
+#templeContainer {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (min-width: 800px) {
+    #templeContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.card {
+    background: #fff;
+    padding: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (min-width: 800px) {
+    #templeContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
