@@ -77,7 +77,7 @@ const temples = [
   location: "Tokyo, Japan",
   dedicated: "1980, October, 27",
   area: 53997,
-  imageUrl: "https://churchofjesuschristtemples.org/tokyo-japan-temple/wp-content/uploads/sites/2/2020/09/tokyo-japan-temple-400x250.jpg"
+  imageUrl: "images/tokyo-japan-temple.jpg"
 }
 
 ];
