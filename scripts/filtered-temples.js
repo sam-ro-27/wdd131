@@ -14,8 +14,12 @@ menuButton.addEventListener("click", function () {
     }
 });
 
+
 const temples = [
- {
+
+  createtemplesCard();
+
+  {
     templeName: "Aba Nigeria",
     location: "Aba, Nigeria",
     dedicated: "2005, August, 7",
