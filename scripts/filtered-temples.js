@@ -77,7 +77,7 @@ const temples = [
   location: "Tokyo, Japan",
   dedicated: "1980, October, 27",
   area: 53997,
-  imageUrl: "images/tokyo-japan-temple.jpg"
+  imageUrl: "images/tokyo_japan.jpg"
 }
 
 ];
