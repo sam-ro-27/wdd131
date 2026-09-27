@@ -78,8 +78,21 @@ const temples = [
   dedicated: "1980, October, 27",
   area: 53997,
   imageUrl: "images/tokyo_japan.jpg"
+},
+{
+  templeName: "Gilbert Arizona",
+  location: "Gilbert, Arizona, United States",
+  dedicated: "2015, March, 1",
+  area: 10768,
+  imageUrl: "images/gilbert_arizona.jpg"
+},
+{
+  templeName: "Idaho Falls Idaho",
+  location: "Idaho Falls, Idaho, United States",
+  dedicated: "1954, September, 24",
+  area: 85624,
+  imageUrl: "images/idaho_falls_idaho.jpg"
 }
-
 ];
 
 const templeContainer = document.getElementById("templeContainer");
