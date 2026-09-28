@@ -112,3 +112,21 @@ function displayTemples(list) {
 }
 
 displayTemples(temples);
+
+document.querySelectorAll("nav a").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const filter = event.target.textContent;
+    let list = temples;
+    if (filter === "Old") {
+      list = temples.filter((t) => parseInt(t.dedicated) < 1900);
+    } else if (filter === "New") {
+      list = temples.filter((t) => parseInt(t.dedicated) > 2000);
+    } else if (filter === "Large") {
+      list = temples.filter((t) => t.area > 90000);
+    } else if (filter === "Small") {
+      list = temples.filter((t) => t.area < 10000);
+    }
+    displayTemples(list);
+  });
+});
