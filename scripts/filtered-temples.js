@@ -54,7 +54,7 @@ const temples = [
     dedicated: "1974, November, 19",
     area: 156558,
     imageUrl:
-    "washington_dc_temple.jpeg"
+    "images/washington_dc_temple.jpeg"
   },
   {
     templeName: "Lima Perú",
