@@ -84,14 +84,14 @@ const temples = [
   location: "Gilbert, Arizona, United States",
   dedicated: "2015, March, 1",
   area: 10768,
-  imageUrl: "images/gilbert_arizona.jpg"
+  imageUrl: "images/gilbert_az.jpg"
 },
 {
   templeName: "Idaho Falls Idaho",
   location: "Idaho Falls, Idaho, United States",
   dedicated: "1954, September, 24",
   area: 85624,
-  imageUrl: "images/idaho_falls_idaho.jpg"
+  imageUrl: "images/idaho_falls_id.jpg"
 }
 ];
 
