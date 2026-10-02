@@ -8,3 +8,22 @@ h1,
 h2 {
     color: #0a1628;
 }
+
+.wireframe {
+    border: 2px solid #0a1628;
+    margin-bottom: 1.5rem;
+}
+
+.wireframe div {
+    border: 1px solid #0a1628;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.wire-mobile {
+    max-width: 12rem;
+}
+
+.wire-desktop {
+    max-width: 36rem;
+}
