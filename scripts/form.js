@@ -41,7 +41,7 @@ if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
 }
 
-const modSpan = document.querySelector("#last///modified");
+const modSpan = document.querySelector("#lastModified");
 if (modSpan) {
     modSpan.textContent = document.lastModified;
 }

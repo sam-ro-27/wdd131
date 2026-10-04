@@ -25,8 +25,8 @@ form > label {
     margin-top: 1rem;
 }
 
-input[type="text],
-input[type="date"],
+input[type=text],
+input[type=date],
 select,
 textarea {
     width: 100%;
@@ -47,4 +47,10 @@ input[type="submit"] {
     background-color: #0a1628;
     border: none;
     cursor: pointer;
+}
+
+@media (min-width: 40rem) {
+    main {
+        max-width: 40rem;
+    }
 }
