@@ -54,7 +54,6 @@ fieldset input[type="checkbox"] + label {
     display: inline-block;
     margin: -1.45rem 0 0.35rem 1.7rem;
 }
-
 input[type="submit"] {
     width: 100%;
 }
