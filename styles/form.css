@@ -35,8 +35,14 @@ textarea {
 }
 
 fieldset {
-    margin: 1rem;
+    margin: 1.25rem 0 0;
+    padding: 0.75rem;
     border: 1px solid #0a1628;
+}
+
+legend {
+    padding: 0 0.35rem;
+    background-color: #e8f4f4;
 }
 
 input[type="submit"] {
