@@ -36,7 +36,7 @@ textarea {
 
 fieldset {
     margin: 1.25rem 0 0;
-    padding: 0.75rem;
+    padding: 0.75rem 0.75rem 0.5rem;
     border: 1px solid #0a1628;
 }
 
@@ -45,14 +45,23 @@ legend {
     background-color: #e8f4f4;
 }
 
-input[type="submit"] {
+fieldset input[type="checkbox"] {
     display: block;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    color: #e8f4f4;
-    background-color: #0a1628;
-    border: none;
-    cursor: pointer;
+    margin: 0.65rem 0 0;
+}
+
+fieldset input[type="checkbox"] + label {
+    display: inline-block;
+    margin: -1.45rem 0 0.35rem 1.7rem;
+}
+
+input[type="submit"] {
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    text-decoration: underline;
 }
 
 @media (min-width: 40rem) {
