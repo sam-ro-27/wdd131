@@ -7,8 +7,57 @@
         <meta name="author" content="Samuel Rowley">
         <title>Product Review</title>
         <link rel="stylesheet" href="styles/form.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <script src="scripts/form.js" defer></script>
     </head>
     <body>
+        <header>
+            <h1>Product Review</h1>
+        </header>
+        <main>
+            <form method="get" action="review.html">
+                <label for="product">Product name</label>
+                <select id="product" name="product" required>
+                    <option value="" disabled selected>Select a Product</option>
+                </select>
+                <fieldset>
+                    <legend>Overall Rating *</legend>
+                    <input type="radio" id="rate1" name="rating" value="1" required>
+                    <label for="rate1">1 ☆</label>
+                    <input type="radio" id="rate2" name="rating" value="2" required>
+                    <label for="rate2">2 ☆</label>
+                    <input type="radio" id="rate3" name="rating" value="3" required>
+                    <label for="rate3">3 ☆</label>
+                    <input type="radio" id="rate4" name="rating" value="4" required>
+                    <label for="rate4">4 ☆</label>
+                    <input type="radio" id="rate5" name="rating" value="5" required>
+                    <label for="rate5">5 ☆</label>
+                </fieldset>
+                <label for="installed">Date of Installation *</label>
+                <input type="date" id="installed" name="installed" required>
+                <fieldset>
+                    <legend>Useful Features</legend>
+                    <input type="checkbox" id="feat-durability" name="features" value="durability">
+                    <label for="feat-durability">Durability</label>
+                    <input type="checkbox" id="feat-ease" name="features" value="ease">
+                    <label for="feat-ease">Ease of Use</label>
+                    <input type="checkbox" id="feat-performance" name="features" value="performance">
+                    <label for="feat-performance">Performance</label>
+                    <input type="checkbox" id="feat-design" name="features" value="design">
+                    <label for="feat-design">Design</label>
+                </fieldset>
+                <label for="review">Written Review</label>
+                <textarea id="review" name="review" rows="5"></textarea>
+
+                <label for="username">Your Name</label>
+                <input type="text" id="username" name="username">
+                
+                <input type="submit" value="Post Your Review">
+            </form>
+        </main>
+        <footer>
+                <p>&copy;<span id="currentyear"></span> Samuel Rowley, Texas, USA All rights reserved.</p>
+                <p>Last Modification: <span id="lastModified"></span></p>
+           </footer>        
     </body>   
 </html>
