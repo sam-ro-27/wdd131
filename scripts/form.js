@@ -35,3 +35,21 @@ if (productSelect) {
         productSelect.appendChild(option);
     });
 }
+
+const yearSpan = document.querySelector("#currentyear");
+if (yearSpan) {
+    yearSpan.textContent = new Date().getFullYear();
+}
+
+const modSpan = document.querySelector("#last///modified");
+if (modSpan) {
+    modSpan.textContent = document.lastModified;
+}
+
+const countSpan = document.querySelector("#reviewCount");
+if (countSpan) {
+     let count = Number(localStorage.getItem("reviewCount")) || 0;
+    count += 1;
+    localStorage.setItem("reviewCount", String(count));
+    countSpan.textContent = count;
+}

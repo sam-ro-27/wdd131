@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    color: #0a1628;
+    background-color: #e8f4f4;
+    margin: 0;
+    line-height: 1.5;
+}
+
+header,
+footer {
+    background-color: #0a1628;
+    color: #e8f4f4;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+form > label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input[type="text],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin: 1rem;
+    border: 1px solid #0a1628;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #e8f4f4;
+    background-color: #0a1628;
+    border: none;
+    cursor: pointer;
+}
