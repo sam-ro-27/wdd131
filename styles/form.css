@@ -55,7 +55,14 @@ fieldset input[type="checkbox"] + label {
     margin: -1.45rem 0 0.35rem 1.7rem;
 }
 input[type="submit"] {
+    display: block;
     width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    color: #e8f4f4;
+    background-color: #0a1628;
+    border: none;
+    cursor: pointer;
 }
 
 input[type="submit"]:hover,
