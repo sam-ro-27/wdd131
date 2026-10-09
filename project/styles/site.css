@@ -1,0 +1,27 @@
+:root {
+    --deep: #020b16;
+    --water: #0a1628;
+    --glow: #3ecfcf;
+    --foam: #e8f4f4;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--deep);
+    color: var(--foam);
+}
+
+header,
+footer {
+    background-color: var(--water);
+    padding: 1rem;
+}
+
+nav a {
+    color: var(--glow);
+}
+
+h1 {
+    color: var(--glow);
+}
