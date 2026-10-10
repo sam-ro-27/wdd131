@@ -27,7 +27,7 @@ h1 {
 }
 
 nav ul {
-    list-style: none;
+    list-style: column;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
