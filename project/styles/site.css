@@ -5,11 +5,16 @@
     --foam: #e8f4f4;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: var(--deep);
     color: var(--foam);
+    line-height: 1.5;
 }
 
 header,
@@ -18,8 +23,10 @@ footer {
     padding: 1rem;
 }
 
-nav a {
+nav a,
+footer a {
     color: var(--glow);
+    text-decoration: none;
 }
 
 h1 {
@@ -32,6 +39,7 @@ nav ul {
     flex-wrap: wrap;
     gap: 1rem;
     padding: 0;
+    margin: 0;
 }
 
 main {
@@ -40,8 +48,9 @@ main {
 
 img,
 iframe {
-    max-width: 20rem;
+    max-width: 100%;
     height: auto;
+    display: block;
 }
 
 footer a {
