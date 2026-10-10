@@ -8,5 +8,5 @@ const lastModifiedString = lastModified.toLocaleString();
 
 const lastModifiedElement = document.getElementById("lastModified");
 if (lastModifiedElement) {
-  lastModifiedElement.textContent = `Last modified: ${lastModifiedString}`;
+  lastModifiedElement.textContent = lastModifiedString;
 }
