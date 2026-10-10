@@ -25,3 +25,25 @@ nav a {
 h1 {
     color: var(--glow);
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+img,
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+footer a {
+    color: var(--glow);
+}
