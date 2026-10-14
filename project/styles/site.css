@@ -56,3 +56,23 @@ iframe {
 footer a {
     color: var(--glow);
 }
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 28rem;
+    padding: 1rem;
+}
+
+input[type="submit"] {
+    background-color: var(--glow);
+    color: var(--deep);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+main a {
+    color: var(--glow);
+}

@@ -1,3 +1,7 @@
+const squidFacts = [
+  { title: "Habitat", fact: "They live in deep ocean." },
+  { title: "Hunt", fact: "They are rarely seen." }
+];
 function setFooter() {
   const today = new Date();
   const year = today.getFullYear();
@@ -6,6 +10,17 @@ function setFooter() {
   if (currentYearElement) {
     currentYearElement.textContent = year;
   }
+
+  function showFacts() {
+    const list = document.getElementById("fact-list");
+    if (!list) {
+      return;
+    }
+    squidFacts.forEach(function (item) {
+      list.innerHTML += `<li><strong>${item.title}:</strong> ${item.fact}</li>`;
+    });
+  }
+  showFacts();
 
   const lastModified = new Date(document.lastModified);
   const lastModifiedString = lastModified.toLocaleString();
