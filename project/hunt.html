@@ -33,11 +33,18 @@
         <iframe src="https://www.youtube.com/embed/Q9xwU-NjLzE" title="Giant Squid filmed near Japan while hunting fish." width="560" height="315" allowfullscreen loading="lazy">
         </iframe>
         <form id="sighting-form">
-            <label for="observer">Your Name</label>
-            <input type="text" id="observer" name="observer">
-            <label for="place">Location of sighting</label>
-            <input type="text" id="place" name="place">
-            <input type="submit" value="log sighting">
+            <fieldset>
+                <legend>Log a sighting</legend>
+                <label for="date">Date of sighting</label>
+                <input type="date" id="date" name="date">
+                <label for="time">Time of sighting</label>
+                <input type="time" id="time" name="time">            
+                <label for="observer">Your Name *</label>
+                <input type="text" id="observer" name="observer" required>
+                <label for="place">Location of sighting *</label>
+                <input type="text" id="place" name="place" required>
+                <input type="submit" value="log sighting">
+            </fieldset>
         </form>
         <p id="sighting-message"></p>
     </main>
