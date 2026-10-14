@@ -76,3 +76,13 @@ input[type="submit"] {
 main a {
     color: var(--glow);
 }
+
+figure {
+    max-width: 36rem;
+    margin: 1rem 0;
+}
+
+figcaption {
+    color: var(--glow);
+    font-size: 0.9rem;
+}
