@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Giant Squid; habitat, hunting and facts about Architeuthis dux">
-        <meta name="author" content="Samuel Rowley">
-        <title>Giant Squid</title>
-        <link rel="stylesheet" href="styles/site.css">
-        <script src="scripts/site.js" defer></script>
-    </head>
-    <body>
-        <header>
-            <h1>Giant Squid | Hunt</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="habitat.html">Habitat</a></li>
-                    <li><a href="hunt.html">Hunt</a></li>
-                    <li><a href="references.html">References</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h2>Hunt</h2>
-            <p>Giant Squid. Little is known of the giant squid's hunting habits.
-                 They are so rarely seen because scientists who go to the deep ocean have bright lights on the submersible.
-                 The giant squid has eyes so large they are sensitive to light. In 2025, fishermen in the ocean near Japan finally 
-                 caught the giant squid eating a fish as they brought the fish aboard.
-                 The squid releases the other squid and returns to the deep.</p>
-            <iframe
-                 src="https://www.youtube.com/embed/Q9xwU-NjLzE"
-                 title="Giant Squid filmed near Japan while hunting fish."
-                 width="560"
-                 height="315"
-                 allowfullscreen
-                 loading="lazy">
-                </iframe>
-                <form id="sighting form">
-                    <label for="observer">Your Name</label>
-                    <input type="text" id="observer" name="observer">
-                    <label for="place">Location of sighting</label>
-                    <input type="text" id="place" name="place">
-                    <input type="submit" value="log sighting">
-                </form>
-        </main>
-        <footer>
-            <p>&copy;<span id="currentyear"></span> Samuel Rowley, Texas, USA. All rights reserved.</p>
-            <p><a href="references.html">References</a></p>
-            <p>Last Modification: <span id="lastModified"></span></p>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giant Squid; habitat, hunting and facts about Architeuthis dux">
+    <meta name="author" content="Samuel Rowley">
+    <title>Giant Squid</title>
+    <link rel="stylesheet" href="styles/site.css">
+    <script src="scripts/site.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Giant Squid | Hunt</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="habitat.html">Habitat</a></li>
+                <li><a href="hunt.html">Hunt</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Hunt</h2>
+        <p>Giant Squid. Little is known of the giant squid's hunting habits.
+            They are so rarely seen because scientists who go to the deep ocean have bright lights on the submersible.
+            The giant squid has eyes so large they are sensitive to light. In 2025, fishermen in the ocean near Japan finally
+            caught the giant squid eating a fish as they brought the fish aboard.
+            The squid releases the other squid and returns to the deep.</p>
+        <iframe src="https://www.youtube.com/embed/Q9xwU-NjLzE" title="Giant Squid filmed near Japan while hunting fish." width="560" height="315" allowfullscreen loading="lazy">
+        </iframe>
+        <form id="sighting-form">
+            <label for="observer">Your Name</label>
+            <input type="text" id="observer" name="observer">
+            <label for="place">Location of sighting</label>
+            <input type="text" id="place" name="place">
+            <input type="submit" value="log sighting">
+        </form>
+        <p id="sighting-message"></p>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Samuel Rowley, Texas, USA. All rights reserved.</p>
+        <p><a href="references.html">References</a></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
 </html>
